@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahlua Menu</title>
+    <style>
+        @font-face {
+            font-family: 'arima';
+            src: url('../Kahlua_Project/font/ArimaMadurai-Light.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'arima_thin';
+            src: url('../Kahlua_Project/font/ArimaMadurai-Thin.ttf') format('truetype');
+        }
+
+        #total1 {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 140px;
+            font-family: 'arima';
+            /* padding-bottom: 100px; */
+            padding-top: 100px;
+            line-height: 150px; /* 행간 조절 */
+        }
+
+        .dish {
+            font-size: 50px;
+            font-family: 'arima_thin';
+            font-weight: 350;
+        }
+
+        #p1 {
+            padding-bottom: 350px;
+        }
+
+        ul {
+            font-size: 60px;
+            font-family: 'arima';
+            list-style-type: none;
+        }
+
+        li {
+            margin: 100px;
+        }
+
+        .korean {
+            font-size: 40px;
+        }
+
+        .etc {
+            font-size: 25px;
+        }
+
+        .comment {
+            font-family: 'arima';
+            font-style: italic;
+            font-size: 40px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            color: gray;
+        }
+
+        @media(max-width : 1000px) {
+            #total {
+                display: block;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="total1">
+        <!-- 상단 이미지 -->
+
+        <!-- <h1>KAHLUA</h1>
+        <p>303, Magok Techno Tower 1, 63, Magokjungang 6-ro, Gangseo-gu, Seoul, Republic of Korea</p> -->
+        <img src="kahlua.jpg" style="margin-bottom: 300px;">
+
+        <div class="korean" style="margin-bottom: 400px;">07:00 pm to 05:00 am</div>
+
+        <!-- 안주 메뉴 -->
+        <h1>SIDE DISH</h1>
+        <img src="pasta.jpg" width="500px" height="500px" style="padding-bottom: 50px;">
+        <div id="p1">
+            <ul>
+                <li><div class="dish">참치 타다끼</div><div class="korean">₩35,000</div></li>
+                <li><div class="dish">치즈 플래터(과일, 브리치즈, 살라미)</div><div class="korean">₩30,000</div></li>
+                <li><div class="dish">트러플 감자튀김</div><div class="korean">₩25,000</div></li>
+                <li><div class="dish">스모킹 윙&봉</div><div class="korean">₩25,000</div></li>
+                <li><div class="dish">먹태</div><div class="korean">₩20,000</div></li>
+                <li><div class="dish">쉬림프 올리브 파스타</div><div class="korean">₩18,000</div></li>
+                <li><div class="dish">쉬림프 크림 파스타</div><div class="korean">₩18,000</div></li>
+                <li><div class="dish">쉬림프 토마토 파스타</div><div class="korean">₩18,000</div></li>
+            </ul>
+        </div>
+
+
+        <!-- 칵테일 메뉴 -->
+
+        <h1>SIGNATURE & TWIST<br>COCKTAIL</h1>
+        <img src="cocktail.jpg" width="500px" height="450px" style="margin-bottom: 30px;">
+        <p2>
+            <ul>
+                <li>Malcha God Father<div class="korean">말차 갓파더<br>₩15,000</div></li>
+                <li>Korean Melon<div class="korean">참외<br>₩15,000</div></li>
+                <li>Tiramisu Nitrogen<div class="korean" style="padding-bottom: 50px;">티라미수 니트로젠<br>₩15,000</div>
+                    <div class="etc" style="font-style: italic;">* 만드는 데 시간이 걸리는 칵테일입니다. 양해 부탁드립니다. *</div></li>
+                <li>Bambuuz Rambutan<div class="korean">뱀부즈 람부탄<br>₩15,000</div></li>
+                <li>Smokiing Dutch Coffee Milk<div class="korean">스모킹 더치 커피 밀크<br>₩15,000</div></li>
+                <li>Honey Ginger Moscow Mule<div class="korean">허니 진저 모스크 뮬<br>₩15,000</div></li>
+                <li>Yoda<div class="korean">요다<br>₩15,000</div></li>
+                <li>Violet Flower<div class="korean">바이올렛 플라워<br>₩15,000</div></li>
+                <li>Dutch Negroni<div class="korean">더치 네그로니<br>₩20,000</div></li>
+                <li>Rose Vanilla Morning<div class="korean">로즈 바닐라 모닝<br>₩15,000</div></li>
+                <li>Spring<div class="korean">봄<br>₩15,000</div></li>
+                <li>Cherry Teapot<div class="korean">체리 티팟<br>₩15,000</div></li>
+                <li>Corn Fast<div class="korean">콘 페스트<br>₩15,000</div></li>
+                <li>Barrel Aging Old Fashioned<div class="korean">배럴에이징 올드패션드<br>₩20,000</div></li>
+                <li>Barrel Aging Boulevardier<div class="korean">배럴에이징 불바디에<br>₩20,000</div></li>
+                <li>Hookare<div class="korean">후카레<br>₩20,000</div></li>
+                <li>Dutch Martini<div class="korean">더치 마티니<br>₩15,000</div></li>
+                <li>Time Gin Fizz<div class="korean">타임 진피즈<br>₩15,000</div></li>
+                <li>Cucumber Fizz<div class="korean">오이 진피즈<br>₩15,000</div></li>
+                <li>Noilly Martini<div class="korean">노일리 마티니<br>₩15,000</div></li>
+                <li>Smokiing God Father<div class="korean">스모킹 갓파더<br>₩20,000</div></li>
+                <li>Smokiing Rusty Nail<div class="korean">스모킹 러스티 네일<br>₩20,000</div></li>
+                <li>Diamonds Absinthe<div class="korean" style="padding-bottom: 50px;">다이아몬드 압생트₩15,000</div>
+                    <div class="etc" style="font-style: italic;">* 만드는 데 시간이 걸리는 칵테일입니다. 양해 부탁드립니다. *</div></li>
+            </ul>
+            <hr width="1200px" style="margin-top: 200px; margin-bottom: 100px;">
+            <div class="comment" style="margin-bottom: 100px;">칵테일은 음식입니다.입맛에 맞지 않으시면, 언제든 편하게 말씀 부탁드립니다.</div>
+        </p2>
+
+    </div>
+</body>
+</html>

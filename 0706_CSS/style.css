@@ -1,0 +1,58 @@
+a {
+    color : black; /* a태그에 대한 색깔 지정 */
+    text-decoration: none; /* 하이퍼링크 밑줄 없애는 효과 */
+}
+
+#active {
+    color: #DDA94B;
+}
+
+.saw {
+    color : #1E4174;
+}
+
+h1 {
+    font-size: 35px; /* 폰트 사이즈 효과 */
+    /* text-align: center; 텍스트 가운데 정렬 */
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+ul {
+    border-right: 1px solid black;
+    width: 90px;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+#grid ul { /* grid Id 안에 속한 ol 태그로 명시해줘야 나중에 ol태그를 또 사용했을 때 혼선 방지 */
+    padding-left: 40px;
+}
+
+#article {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+@media(max-width : 500px) {
+    #grid {
+        display : block;
+    }
+
+    ul {
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding-right: 500px;
+    }
+
+}

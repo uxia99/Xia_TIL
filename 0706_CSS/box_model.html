@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model_CSS</title>
+    <style>
+
+        /* h2와 같이 화면 전체를 쓰는 태그 : block level element(=tag) */
+        /* a와 같이 해당 부분만 쓰는 태그 : inline element(=tag) */
+
+         /* 
+            인라인으로 설정하고 싶은 경우
+            display : inline;
+        */
+
+        h2{
+            border : 1px lightgray solid;
+
+            padding: 20px; /* 안쪽 간격 */
+            margin: 10px; /* 바깥쪽 간격 */
+            /* width: 100px; // 가로 길이 설정 */
+
+        }
+
+        p, img {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Web</h2>
+    <img src="macbook.jpg" width="300" height="200">
+    <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Cascading Style Sheets (CSS)</a>
+        is a stylesheet language used to describe the presentation of a document written in HTML or XML<br>
+        (including XML dialects such as SVG, MathML or XHTML).
+        CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.<br>
+        CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously,<br>
+        the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations.<br>
+        You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now CSS without a version number.</p>
+</body>
+</html>
